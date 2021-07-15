@@ -1,6 +1,6 @@
 # Kit202_Assignment
 # Accommodation Booking System (ABS) 
-# Paul Watts, David Chui Fan Hui, Beven Dwyer
+# David Chui Fan Hui
 
 
 UniTas Pty., Ltd., starts a new online business which connects travellers and accommodation.  The company has now decided to develop online accommodation booking system (ABS) which has multiple accommodation venues with multiple hosts.
@@ -64,5 +64,3 @@ Once booking is confirmed by the host, the client can process the next step. In 
 == Review page for client ==
 
 The client can see all the reviews for the accommodation. She can leave her review.  She is allowed to edit or delete ONLY her review(s).  
-
-== Frequently Asked Questions ==
