@@ -1,0 +1,60 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.main-banner {
+    background: url('../img/Hobart_BG_Reg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+main > .container {
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px; 
+    border: solid 1px;  
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(245, 245, 255);
+    opacity: 95%;
+    
+}
+
+.row{
+    padding-bottom: 10px;
+}
+
+#regHead{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#regiForm{
+    background-color: rgb(241, 248, 255);
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 10px;
+}
+
+#submit{
+    margin-right: 10px; 
+    float: right;
+    text-align: right;
+
+}
+
+#cancel{
+   
+    background-color: red;
+    border-color: red;
+    float: right;
+    text-align: right;
+}
+
+#ABN {
+    display: none;
+  }
+    
+#ABN-label {
+    display: none;
+  }

@@ -1,0 +1,53 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+thead {
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+img {
+  width: 128px;
+  height: 128px;
+}
+
+th.houseCol,
+th.clientCol {
+  width: 15%;
+}
+
+th.commentCol {
+  width: 40%;
+}
+
+th.rateHouse,
+th.rateHost,
+th.button {
+  width: 10%;
+}
+
+.main-banner {
+  background: url("../img/Hobart_BG_Reg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.checked {
+  color: orange;
+}

@@ -1,0 +1,50 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  Background-color: #dddddd;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img {
+  width: 128px;
+  height: 128px;
+}
+
+th.reviewCol {
+  width: 58%
+}
+
+
+th.houseCol, th.rateHouse, th.rateHouse, th.button {
+  width: 10%
+}
+
+#button {
+  text-align: right;
+}
+
+#data {
+  vertical-align:top;
+}
+
+.saveCancel {
+  float:right; 
+  text-align: right;
+}
+
+
+.checked {
+  color: orange;
+}

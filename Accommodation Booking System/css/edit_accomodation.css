@@ -1,0 +1,27 @@
+img {
+  width: 128px;
+  height: 128px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+}
+
+thead {
+  Background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.saveCancel {
+  float:right; 
+  text-align: right;
+}

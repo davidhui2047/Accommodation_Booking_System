@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+main > .container-fluid {
+    padding: 10px 10px;  
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.table{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+}
+
+.main-banner {
+    background: url('../img/Hobart_BG_Reg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-thumbnail{
+      border-radius: 10px;
+  }
+  
+  .deleteRow{
+      border-radius: 5px;
+      background-color: rgb(255, 227, 227);
+      border-color: rgb(255,0,0);
+      color: #000;
+      padding: 3px 3px;
+      margin: 10px 2px;
+      min-block-size: 30px;
+      min-width: 80px;
+  }
+  .btn{
+      border-radius: 5px;    
+      padding: 3px 3px;
+      margin: 10px 10px;
+      min-width: 80px;
+      min-height: 40px;
+  }
+
+  #manPropHeader{
+    text-align: center;
+    text-decoration: underline;          
+}

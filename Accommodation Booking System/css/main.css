@@ -1,0 +1,87 @@
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+header {
+  height: 56px;
+}
+
+.main-banner {
+  background: url('../img/centenary.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* .main-banner div {
+  position: relative;
+  z-index: 2;
+}
+
+.main-banner::before {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: 1;
+} */
+
+/* Search bar */
+
+.search-bar {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.search-bar-results {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.search-bar label {
+  font-weight: bold;
+}
+
+.search-bar .city {
+  max-width: 400px;
+}
+
+.search-bar .start,
+.search-bar .end {
+  max-width: 190px;
+  width: 100%;
+  display: inline-block;
+}
+
+.search-bar .action {
+  width: 100%;
+}
+
+.pagination {
+  margin: 3rem 0;
+}
+
+
+@media (max-width: 1199.98px) { 
+  .search-bar .start {
+    margin-bottom: 10px;
+  }
+}

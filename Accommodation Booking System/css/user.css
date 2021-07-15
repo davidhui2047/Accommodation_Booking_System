@@ -1,0 +1,38 @@
+img {
+  width: 128px;
+  height: 128px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+thead {
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+#addUser {
+  float: right;
+}
+
+.main-banner {
+  background: url("../img/cradle_mountain.jpg");
+  background-size: cover;
+  background-position: center;
+}

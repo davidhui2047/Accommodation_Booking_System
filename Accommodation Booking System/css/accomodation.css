@@ -1,0 +1,36 @@
+img {
+  width: 128px;
+  height: 128px;
+}
+
+.main-banner {
+  background: url('../img/Hobart_BG_Reg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+}
+
+thead {
+  Background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+.checked {
+  color: orange;
+}
